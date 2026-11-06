@@ -1,0 +1,376 @@
+{
+ "ano": 2026,
+ "gerado_em": "2026-11-06T15:35:49+00:00",
+ "fonte": "Portal de Dados Abertos do TSE (https://dadosabertos.tse.jus.br)",
+ "arquivos": [
+  "consulta_cand_2026.zip",
+  "consulta_vagas_2026.zip",
+  "detalhe_votacao_munzona_2026.zip",
+  "votacao_candidato_munzona_2026.zip",
+  "votacao_partido_munzona_2026.zip"
+ ],
+ "tem_genero": true,
+ "ufs": [
+  {
+   "uf": "AC",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "AL",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "AM",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "AP",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "BA",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "CE",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "DF",
+   "cargos": [
+    6,
+    8
+   ]
+  },
+  {
+   "uf": "ES",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "GO",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "MA",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "MG",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "MS",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "MT",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "PA",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "PB",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "PE",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "PI",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "PR",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "RJ",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "RN",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "RO",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "RR",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "RS",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "SC",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "SE",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "SP",
+   "cargos": [
+    6,
+    7
+   ]
+  },
+  {
+   "uf": "TO",
+   "cargos": [
+    6,
+    7
+   ]
+  }
+ ],
+ "partidos": {
+  "AGIR": {
+   "nr": 36,
+   "nome": "AGIR"
+  },
+  "AVANTE": {
+   "nr": 70,
+   "nome": "AVANTE"
+  },
+  "CIDADANIA": {
+   "nr": 23,
+   "nome": "CIDADANIA"
+  },
+  "DC": {
+   "nr": 27,
+   "nome": "DEMOCRACIA CRISTÃ"
+  },
+  "DEMOCRATA": {
+   "nr": 35,
+   "nome": "DEMOCRATA"
+  },
+  "MDB": {
+   "nr": 15,
+   "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+  },
+  "MISSÃO": {
+   "nr": 14,
+   "nome": "PARTIDO MISSÃO"
+  },
+  "MOBILIZA": {
+   "nr": 33,
+   "nome": "MOBILIZAÇÃO NACIONAL"
+  },
+  "NOVO": {
+   "nr": 30,
+   "nome": "PARTIDO NOVO"
+  },
+  "PCB": {
+   "nr": 21,
+   "nome": "PARTIDO COMUNISTA BRASILEIRO"
+  },
+  "PCDOB": {
+   "nr": 65,
+   "nome": "PARTIDO COMUNISTA DO BRASIL"
+  },
+  "PCO": {
+   "nr": 29,
+   "nome": "PARTIDO DA CAUSA OPERÁRIA"
+  },
+  "PDT": {
+   "nr": 12,
+   "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+  },
+  "PL": {
+   "nr": 22,
+   "nome": "PARTIDO LIBERAL"
+  },
+  "PODE": {
+   "nr": 20,
+   "nome": "PODEMOS"
+  },
+  "PP": {
+   "nr": 11,
+   "nome": "PROGRESSISTAS"
+  },
+  "PRD": {
+   "nr": 25,
+   "nome": "PARTIDO RENOVACAO DEMOCRATICA"
+  },
+  "PSB": {
+   "nr": 40,
+   "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+  },
+  "PSD": {
+   "nr": 55,
+   "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+  },
+  "PSDB": {
+   "nr": 45,
+   "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+  },
+  "PSOL": {
+   "nr": 50,
+   "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+  },
+  "PSTU": {
+   "nr": 16,
+   "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+  },
+  "PT": {
+   "nr": 13,
+   "nome": "PARTIDO DOS TRABALHADORES"
+  },
+  "PV": {
+   "nr": 43,
+   "nome": "PARTIDO VERDE"
+  },
+  "REDE": {
+   "nr": 18,
+   "nome": "REDE SUSTENTABILIDADE"
+  },
+  "REPUBLICANOS": {
+   "nr": 10,
+   "nome": "REPUBLICANOS"
+  },
+  "SOLIDARIEDADE": {
+   "nr": 77,
+   "nome": "SOLIDARIEDADE"
+  },
+  "UNIÃO": {
+   "nr": 44,
+   "nome": "UNIÃO BRASIL"
+  },
+  "UP": {
+   "nr": 80,
+   "nome": "UNIDADE POPULAR"
+  }
+ },
+ "federacoes": [
+  {
+   "id": "FED100",
+   "nr": 100,
+   "partidos": [
+    "CIDADANIA",
+    "PSDB"
+   ],
+   "sigla": "PSDB/CIDADANIA",
+   "nome": "FEDERAÇÃO PSDB CIDADANIA"
+  },
+  {
+   "id": "FED101",
+   "nr": 101,
+   "partidos": [
+    "PCDOB",
+    "PT",
+    "PV"
+   ],
+   "sigla": "PT/PC do B/PV",
+   "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL"
+  },
+  {
+   "id": "FED102",
+   "nr": 102,
+   "partidos": [
+    "PSOL",
+    "REDE"
+   ],
+   "sigla": "PSOL/REDE",
+   "nome": "FEDERAÇÃO PSOL REDE"
+  },
+  {
+   "id": "FED103",
+   "nr": 103,
+   "partidos": [
+    "PRD",
+    "SOLIDARIEDADE"
+   ],
+   "sigla": "PRD/SOLIDARIEDADE",
+   "nome": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA"
+  },
+  {
+   "id": "FED104",
+   "nr": 104,
+   "partidos": [
+    "PP",
+    "UNIÃO"
+   ],
+   "sigla": "UNIÃO/PP",
+   "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA"
+  }
+ ],
+ "avisos": []
+}

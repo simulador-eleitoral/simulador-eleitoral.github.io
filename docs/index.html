@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simulador de Federações Partidárias – Eleições 2026</title>
+  <meta name="description" content="Monte novas federações partidárias e veja como ficariam a Câmara dos Deputados e as Assembleias Legislativas com os votos reais de 2026.">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="largura">
+      <p class="sobretitulo">Eleições proporcionais 2026 · dados oficiais do TSE</p>
+      <h1>Simulador de Federações Partidárias</h1>
+      <p class="lead">Monte novas federações, refaça as chapas de deputado federal, estadual e distrital de todas as UFs e veja quem ganharia e quem perderia cadeiras com os votos reais.</p>
+      <p id="info-dados" class="info-dados">Carregando dados…</p>
+    </div>
+  </header>
+
+  <div id="aviso-exemplo" class="faixa-exemplo" hidden>
+    DADOS FICTÍCIOS DE TESTE: os números abaixo não são resultados reais.
+  </div>
+
+  <nav class="abas largura" role="tablist">
+    <button role="tab" data-aba="federacoes" aria-selected="true">1. Montar federações</button>
+    <button role="tab" data-aba="resultado">2. Resultado nacional</button>
+    <button role="tab" data-aba="estado">3. Por estado</button>
+    <button role="tab" data-aba="comparar">4. Comparar partido</button>
+    <button role="tab" data-aba="metodo">Metodologia</button>
+  </nav>
+
+  <main class="largura">
+    <section id="aba-federacoes" class="aba" role="tabpanel"></section>
+    <section id="aba-resultado" class="aba" role="tabpanel" hidden></section>
+    <section id="aba-estado" class="aba" role="tabpanel" hidden></section>
+    <section id="aba-comparar" class="aba" role="tabpanel" hidden></section>
+    <section id="aba-metodo" class="aba" role="tabpanel" hidden></section>
+  </main>
+
+  <footer class="rodape largura">
+    <p>Simulação baseada nos dados abertos do Tribunal Superior Eleitoral. Não é um resultado oficial.
+      Código aberto: veja a aba Metodologia para as regras aplicadas e as limitações.</p>
+  </footer>
+
+  <div id="toast" class="toast" hidden></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

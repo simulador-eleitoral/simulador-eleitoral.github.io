@@ -1,0 +1,5 @@
+dados_brutos/
+docs/data/exemplo/
+__pycache__/
+*.parcial
+.DS_Store

@@ -1,0 +1,43 @@
+name: Atualizar dados do TSE
+
+# Roda só quando você clicar em "Run workflow" na aba Actions do GitHub.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Baixar o código do repositório
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Baixar e preparar os resultados do TSE
+        run: python scripts/preparar_dados.py
+
+      - name: Testar o motor de cálculo
+        run: node --test tests/teste_calculo.mjs
+
+      - name: Conferir com os eleitos oficiais (informativo)
+        continue-on-error: true
+        run: node scripts/conferir.mjs
+
+      - name: Salvar os dados no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "Nenhuma mudança nos dados."
+          else
+            git commit -m "Atualiza dados do TSE ($(date -u +%Y-%m-%d))"
+            git push
+          fi
